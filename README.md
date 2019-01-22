@@ -69,7 +69,7 @@ $ git commit -m "commiting Gemfile.lock"
 $ git push heroku master -f
 ```
 如果没问题就不用运行上面三句  
-部署到heroku上发现assets/images目录下的显示推荐度的星星图片丢失  
+部署到heroku上发现`assets/images`目录下的显示推荐度的星星图片丢失  
 解决方法：  
 - 将`config/environments/production.rb`里的`config.assets.compile = false`改成`config.assets.compile = true`
 - `$ rake assets:precompile  //先在本地预编译静态资源`
@@ -77,8 +77,8 @@ $ git push heroku master -f
 - `$ git commit -m "commiting Gemfile.lock"`
 - `$ git push heroku master -f`
 ## 存在的问题
-&emsp;&emsp;由于使用的是heroku免费用户，再重启heroku时，存储在public/system下的图片会被heroku自动删除，使得上传网站的图片丢失不显示  
+&emsp;&emsp;由于使用的是heroku免费用户，再重启heroku时，存储在`public/system`下的图片会被heroku自动删除，使得上传网站的图片丢失不显示  
 ## 待完善
 &emsp;&emsp;录入大量用户实现书的智能推荐  
-&emsp;&emsp;将用户上传的图片不存入public/system，而是存入assets/images目录下，防止被heroku删除  
+&emsp;&emsp;将用户上传的图片不存入`public/system`，而是存入`assets/images`目录下，防止被heroku删除  
 
