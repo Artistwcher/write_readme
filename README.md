@@ -14,7 +14,7 @@
 - 一本书显示的内容主要有作者、推荐度、简介等  
 ## 项目展示
 1.注册/登录模块
-![]()
+![](https://github.com/Artistwcher/write_readme/public/1.png)
 2.系统主界面
 3.添加书籍
 4.编辑书籍
