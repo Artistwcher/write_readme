@@ -14,11 +14,18 @@
 - 一本书显示的内容主要有作者、推荐度、简介等  
 ## 项目展示
 1.注册/登录模块
-![](https://github.com/Artistwcher/write_readme/public/1.png)
+![](https://github.com/Artistwcher/write_readme/blob/master/public/1.png)
 2.系统主界面
+![](https://github.com/Artistwcher/write_readme/blob/master/public/2.png)
 3.添加书籍
+![](https://github.com/Artistwcher/write_readme/blob/master/public/3.png)
 4.编辑书籍
+![](https://github.com/Artistwcher/write_readme/blob/master/public/4.png)
 5.添加评论
+![](https://github.com/Artistwcher/write_readme/blob/master/public/5.png)
 6.评论显示
+![](https://github.com/Artistwcher/write_readme/blob/master/public/6.png)
 7.搜索模块
+![](https://github.com/Artistwcher/write_readme/blob/master/public/7.png)
 8.书籍分类
+![](https://github.com/Artistwcher/write_readme/blob/master/public/8.png)
